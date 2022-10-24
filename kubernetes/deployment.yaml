@@ -23,7 +23,7 @@ spec:
       containers:
       - image: brentley/ecsdemo-nodejs:latest
         imagePullPolicy: Always
-        name: ecsdemo-nodejs
+        name: ecsdemo-nodejs_app
         ports:
         - containerPort: 3000
           protocol: TCP
